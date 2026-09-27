@@ -1,4 +1,4 @@
-Automated Network Configuration Backup
+##Automated Network Configuration Backup
 
 
 
@@ -6,31 +6,31 @@ Automated Network Configuration Backup is a Python-based tool designed to connec
 
 
 
-TECH STACK
+#TECH STACK
 
-\-Python
+\- Python
 
-\-Netmiko
-
-
-
-SETUP
-
-\-Clone this repository to your local machine.
-
-\-Install the required python dependencies
-
-\-Open backup.py and update the devices list with your target router credentials
+\- Netmiko
 
 
 
-HOW TO USE
+#SETUP
 
-\-Run the script.
+\- Clone this repository to your local machine.
 
-\-The terminal will display the connection progress and catch any connection errors without crashing.
+\- Install the required python dependencies
 
-\-Upon successful connection, the extracted running configuration will be printed in the terminal.
+\- Open backup.py and update the devices list with your target router credentials
 
-\-A new .txt file will be automatically generated in the project's root directory containing the backup data.
+
+
+#HOW TO USE
+
+\- Run the script.
+
+\- The terminal will display the connection progress and catch any connection errors without crashing.
+
+\- Upon successful connection, the extracted running configuration will be printed in the terminal.
+
+\- A new .txt file will be automatically generated in the project's root directory containing the backup data.
 
